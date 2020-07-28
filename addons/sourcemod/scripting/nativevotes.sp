@@ -142,8 +142,8 @@ int g_CallVotes[NativeVotesOverride][CallVoteForwards];
 
 public Plugin myinfo = 
 {
-	name = "NativeVotes for SourceMods",
-	author = "Powerlord, port by FigMan57",
+	name = "NativeVotes",
+	author = "Powerlord",
 	description = "Voting API to use the game's native vote panels. Compatible with L4D, L4D2, TF2, and CS:GO.",
 	version = VERSION,
 	url = "https://forums.alliedmods.net/showthread.php?t=208008"
