@@ -10,6 +10,7 @@
 - TF2Ware (included config disables a few broken microgames)
 - NativeVotes (fixes a crash on sourcemods)
 - Instant Respawn
+
 These **require** https://github.com/Scags/TF2Classic-Tools to load, but are stripped of gamedata
 This should make them work across game updates.
 
