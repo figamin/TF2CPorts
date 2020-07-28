@@ -421,20 +421,7 @@ methodmap NativeVote < KeyValues
 	//
 	// @param fmt					A format string.
 	// @param ...					Variable number of format parameters
-	public void DisplayPassCustom(const char[] fmt, any ...)
-	{
-		char buffer[192];
-		
-		for (int i = 1; i <= MaxClients; ++i)
-		{
-			if (!IsClientInGame(i) || IsFakeClient(i))
-				continue;
-				
-			SetGlobalTransTarget(i);
-			VFormat(buffer, sizeof(buffer), fmt, 3);
-			this.DisplayPassCustomToOne(i, "%s", buffer);
-		}
-	}
+	
 	
 	// Display vote passed screen with a custom type.
 	//
