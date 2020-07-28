@@ -17,6 +17,8 @@ This should make them work across game updates.
 
 RTD, Class Warfare, and Civilian Only also feature proper 4 team support.
 
+For RTD, add ```sm_rtd_disabled godmode,invis,bighead,tinyplayer,ignite,sauce,jump``` to your server.cfg. The plugin will load without this, but all of these effects are broken due to relying on effects not featured or lacking proper gamedata in TF2C.
+
 The TF2Ware resources are included because these are hard to find (original plugin download is broken). For the other plugins, you can go
 to their original pages to download the resources:
 
