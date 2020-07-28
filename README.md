@@ -6,8 +6,11 @@ This should make them work across game updates.
 
 RTD, Class Warfare, and Civilian Only also feature proper 4 team support.
 
+NativeVotes features a fix that prevents it from crashing upon finishing a vote. All the other plugins for NativeVotes work fine from the original page.
+
 The TF2Ware resources are included because these are hard to find (original plugin download is broken). For the other plugins, you can go
 to their original pages to download the resources:
 
 VSH: https://forums.alliedmods.net/showthread.php?t=146884
+
 FF2: https://forums.alliedmods.net/showthread.php?t=229013
